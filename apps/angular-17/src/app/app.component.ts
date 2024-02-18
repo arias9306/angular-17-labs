@@ -5,8 +5,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   selector: 'labs-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  template: '<router-outlet></router-outlet>',
 })
 export class AppComponent {
   title = 'angular-17';
