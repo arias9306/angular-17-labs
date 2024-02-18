@@ -36,3 +36,22 @@ This is a Git repository for exploring and testing the new features of Angular 1
 - 👀 Check inferred tasks (Nx Project Crystal 💎) `nx show project angular-17 --web`
 
   ![alt text](https://github.com/arias9306/angular-17-labs/blob/main/docs/imgs/project-crystal.png?raw=true 'Logo Title Text 1')
+
+- Create the Api project
+
+  ```
+  npx nx generate @nx/nest:application --name=api --frontendProject=angular-17 --directory=apps/api --projectNameAndRootFormat=as-provided --strict=true --tags=type:api --no-interactive
+  ```
+
+  - `npx nx generate`: This initiates the generation process using Nx.
+  - `@nx/nest:application`: Specifies the generator to use, in this case, the NestJS application generator provided by Nx.
+  - `--name=api`: Sets the name of the NestJS application to be generated as "api".
+  - `--frontendProject=angular-17`: Specifies the frontend project to be associated with the NestJS application. In this case, it's set to "angular-17".
+    see more [Angular config: Proxying to a backend server](https://angular.dev/tools/cli/serve#proxying-to-a-backend-server)
+  - `--directory=apps/api`: Specifies the directory where the NestJS application will be created. Here, it's set to "apps/api".
+  - `--projectNameAndRootFormat=as-provided`: This option specifies the format for naming the project and root. In this case, it retains the provided format.
+  - `--strict=true`: Enables strict mode for TypeScript within the generated NestJS application. This enforces stricter type checking rules.
+  - `--tags=type:api`: Assigns tags to the generated NestJS application. In this case, it adds the tag "type:api".
+  - `--no-interactive`: Disables interactive mode, meaning the command won't prompt for user input during the generation process.
+
+- 👀 Check inferred tasks (Nx Project Crystal 💎) `nx show project api --web`
