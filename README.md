@@ -33,7 +33,7 @@ This is a Git repository for exploring and testing the new features of Angular 1
   - `--tags=type:app`: Assigns tags to the generated application. In this case, it adds the tag "type:app".
   - `--no-interactive`: Disables interactive mode, meaning the command won't prompt for user input.
 
-- 👀 Check inferred tasks (Nx Project Crystal 💎) `nx show project angular-17 --web`
+- 👀 Check inferred tasks ([Nx Project Crystal](https://nx.dev/concepts/inferred-tasks) 💎) `nx show project angular-17 --web`
 
   ![alt text](https://github.com/arias9306/angular-17-labs/blob/main/docs/imgs/project-crystal.png?raw=true 'Logo Title Text 1')
 
@@ -54,4 +54,4 @@ This is a Git repository for exploring and testing the new features of Angular 1
   - `--tags=type:api`: Assigns tags to the generated NestJS application. In this case, it adds the tag "type:api".
   - `--no-interactive`: Disables interactive mode, meaning the command won't prompt for user input during the generation process.
 
-- 👀 Check inferred tasks (Nx Project Crystal 💎) `nx show project api --web`
+- 👀 Check inferred tasks ([Nx Project Crystal](https://nx.dev/concepts/inferred-tasks) 💎) `nx show project api --web`
