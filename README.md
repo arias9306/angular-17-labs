@@ -55,3 +55,8 @@ This is a Git repository for exploring and testing the new features of Angular 1
   - `--no-interactive`: Disables interactive mode, meaning the command won't prompt for user input during the generation process.
 
 - 👀 Check inferred tasks ([Nx Project Crystal](https://nx.dev/concepts/inferred-tasks) 💎) `nx show project api --web`
+- Create basic layout component
+
+  ```
+  npx nx generate @nx/angular:library --name=basic-layout --directory=libs/web/shared/layout/basic --routing=true --changeDetection=OnPush --importPath=@labs-web-shared-layout-basic --prefix=labs --projectNameAndRootFormat=as-provided --tags="type:ui, scope:shared" --no-interactive
+  ```
