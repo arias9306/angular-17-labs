@@ -1,0 +1,9 @@
+{
+  "name": "web-shared-basic-layout",
+  "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/web/shared/layout/basic/src",
+  "prefix": "labs",
+  "tags": ["type:ui", "scope:shared"],
+  "projectType": "library",
+  "targets": {}
+}
