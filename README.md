@@ -22,6 +22,9 @@ This is a Git repository for exploring and testing the new features of Angular 1
   npx nx generate @nx/angular:application --name=angular-17 --bundler=esbuild --directory=apps/angular-17 --addTailwind=true --prefix=labs --projectNameAndRootFormat=as-provided --tags=type:app --no-interactive
   ```
 
+  <details>
+    <summary>Command details</summary>
+
   - `npx nx generate`: Invokes Nx to generate something within the workspace.
   - `@nx/angular:application`: Specifies the generator to use. In this case, it's for creating an Angular application.
   - `--name=angular-17`: Sets the name of the application to "angular-17".
@@ -33,6 +36,8 @@ This is a Git repository for exploring and testing the new features of Angular 1
   - `--tags=type:app`: Assigns tags to the generated application. In this case, it adds the tag "type:app".
   - `--no-interactive`: Disables interactive mode, meaning the command won't prompt for user input.
 
+  </details>
+
 - 👀 Check inferred tasks ([Nx Project Crystal](https://nx.dev/concepts/inferred-tasks) 💎) `nx show project angular-17 --web`
 
   ![alt text](https://github.com/arias9306/angular-17-labs/blob/main/docs/imgs/project-crystal.png?raw=true 'Logo Title Text 1')
@@ -42,6 +47,9 @@ This is a Git repository for exploring and testing the new features of Angular 1
   ```
   npx nx generate @nx/nest:application --name=api --frontendProject=angular-17 --directory=apps/api --projectNameAndRootFormat=as-provided --strict=true --tags=type:api --no-interactive
   ```
+
+  <details>
+    <summary>Command details</summary>
 
   - `npx nx generate`: This initiates the generation process using Nx.
   - `@nx/nest:application`: Specifies the generator to use, in this case, the NestJS application generator provided by Nx.
@@ -53,6 +61,8 @@ This is a Git repository for exploring and testing the new features of Angular 1
   - `--strict=true`: Enables strict mode for TypeScript within the generated NestJS application. This enforces stricter type checking rules.
   - `--tags=type:api`: Assigns tags to the generated NestJS application. In this case, it adds the tag "type:api".
   - `--no-interactive`: Disables interactive mode, meaning the command won't prompt for user input during the generation process.
+
+  </details>
 
 - 👀 Check inferred tasks ([Nx Project Crystal](https://nx.dev/concepts/inferred-tasks) 💎) `nx show project api --web`
 - Create basic layout component
