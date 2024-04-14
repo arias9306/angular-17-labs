@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@labs-web-shared-layout-basic": ["libs/web/shared/layout/basic/src/index.ts"]
+      "@labs-web-shared-layout-basic": [
+        "libs/web/shared/layout/basic/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
