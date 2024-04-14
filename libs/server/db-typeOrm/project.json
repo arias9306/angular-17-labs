@@ -1,0 +1,9 @@
+{
+  "name": "db-typeOrm",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/server/db-typeOrm/src",
+  "projectType": "library",
+  "tags": ["type:db"],
+  "// targets": "to see all targets run: nx show project db-typeOrm --web",
+  "targets": {}
+}

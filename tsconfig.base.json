@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@angular-17-labs/db-typeOrm": ["libs/server/db-typeOrm/src/index.ts"],
       "@labs-web-shared-layout-basic": [
         "libs/web/shared/layout/basic/src/index.ts"
       ]
